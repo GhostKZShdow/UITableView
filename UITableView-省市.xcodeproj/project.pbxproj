@@ -15,6 +15,11 @@
 		2976CC1E1C2BF20300562055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2976CC1C1C2BF20300562055 /* LaunchScreen.storyboard */; };
 		2976CC291C2BF20300562055 /* UITableView___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CC281C2BF20300562055 /* UITableView___Tests.m */; };
 		2976CC341C2BF20300562055 /* UITableView___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CC331C2BF20300562055 /* UITableView___UITests.m */; };
+		2976CC431C2BF26D00562055 /* kProvinceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CC421C2BF26D00562055 /* kProvinceViewController.m */; };
+		2976CC461C2BF28B00562055 /* kCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CC451C2BF28B00562055 /* kCityViewController.m */; };
+		2976CC481C2BF49800562055 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2976CC471C2BF49800562055 /* area.plist */; };
+		2976CC4C1C2CD80B00562055 /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2976CC4B1C2CD80B00562055 /* sortednames.plist */; };
+		2976CC4F1C2CD81D00562055 /* kNamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CC4E1C2CD81D00562055 /* kNamesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		2976CC2F1C2BF20300562055 /* UITableView-省市UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView-省市UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2976CC331C2BF20300562055 /* UITableView___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView___UITests.m"; sourceTree = "<group>"; };
 		2976CC351C2BF20300562055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2976CC411C2BF26D00562055 /* kProvinceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kProvinceViewController.h; sourceTree = "<group>"; };
+		2976CC421C2BF26D00562055 /* kProvinceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kProvinceViewController.m; sourceTree = "<group>"; };
+		2976CC441C2BF28B00562055 /* kCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kCityViewController.h; sourceTree = "<group>"; };
+		2976CC451C2BF28B00562055 /* kCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kCityViewController.m; sourceTree = "<group>"; };
+		2976CC471C2BF49800562055 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		2976CC4B1C2CD80B00562055 /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
+		2976CC4D1C2CD81D00562055 /* kNamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kNamesViewController.h; sourceTree = "<group>"; };
+		2976CC4E1C2CD81D00562055 /* kNamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kNamesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +98,8 @@
 				2976CC271C2BF20300562055 /* UITableView-省市Tests */,
 				2976CC321C2BF20300562055 /* UITableView-省市UITests */,
 				2976CC0C1C2BF20300562055 /* Products */,
+				2976CC471C2BF49800562055 /* area.plist */,
+				2976CC4B1C2CD80B00562055 /* sortednames.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +120,8 @@
 				2976CC121C2BF20300562055 /* AppDelegate.m */,
 				2976CC141C2BF20300562055 /* ViewController.h */,
 				2976CC151C2BF20300562055 /* ViewController.m */,
+				2976CC491C2CD7CB00562055 /* leftButtonClicked */,
+				2976CC4A1C2CD7E500562055 /* rightButtonClicked */,
 				2976CC171C2BF20300562055 /* Main.storyboard */,
 				2976CC1A1C2BF20300562055 /* Assets.xcassets */,
 				2976CC1C1C2BF20300562055 /* LaunchScreen.storyboard */,
@@ -138,6 +155,26 @@
 				2976CC351C2BF20300562055 /* Info.plist */,
 			);
 			path = "UITableView-省市UITests";
+			sourceTree = "<group>";
+		};
+		2976CC491C2CD7CB00562055 /* leftButtonClicked */ = {
+			isa = PBXGroup;
+			children = (
+				2976CC411C2BF26D00562055 /* kProvinceViewController.h */,
+				2976CC421C2BF26D00562055 /* kProvinceViewController.m */,
+				2976CC441C2BF28B00562055 /* kCityViewController.h */,
+				2976CC451C2BF28B00562055 /* kCityViewController.m */,
+			);
+			name = leftButtonClicked;
+			sourceTree = "<group>";
+		};
+		2976CC4A1C2CD7E500562055 /* rightButtonClicked */ = {
+			isa = PBXGroup;
+			children = (
+				2976CC4D1C2CD81D00562055 /* kNamesViewController.h */,
+				2976CC4E1C2CD81D00562055 /* kNamesViewController.m */,
+			);
+			name = rightButtonClicked;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2976CC1E1C2BF20300562055 /* LaunchScreen.storyboard in Resources */,
+				2976CC481C2BF49800562055 /* area.plist in Resources */,
+				2976CC4C1C2CD80B00562055 /* sortednames.plist in Resources */,
 				2976CC1B1C2BF20300562055 /* Assets.xcassets in Resources */,
 				2976CC191C2BF20300562055 /* Main.storyboard in Resources */,
 			);
@@ -273,9 +312,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2976CC431C2BF26D00562055 /* kProvinceViewController.m in Sources */,
 				2976CC161C2BF20300562055 /* ViewController.m in Sources */,
 				2976CC131C2BF20300562055 /* AppDelegate.m in Sources */,
+				2976CC461C2BF28B00562055 /* kCityViewController.m in Sources */,
 				2976CC101C2BF20300562055 /* main.m in Sources */,
+				2976CC4F1C2CD81D00562055 /* kNamesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +543,7 @@
 				2976CC3A1C2BF20300562055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2976CC3B1C2BF20300562055 /* Build configuration list for PBXNativeTarget "UITableView-省市Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +552,7 @@
 				2976CC3D1C2BF20300562055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2976CC3E1C2BF20300562055 /* Build configuration list for PBXNativeTarget "UITableView-省市UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +561,7 @@
 				2976CC401C2BF20300562055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
