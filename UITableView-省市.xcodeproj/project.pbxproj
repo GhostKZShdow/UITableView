@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2961F0241CC485490062FC1A /* shouye.png in Resources */ = {isa = PBXBuildFile; fileRef = 2961F0231CC485490062FC1A /* shouye.png */; };
 		2976CC101C2BF20300562055 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CC0F1C2BF20300562055 /* main.m */; };
 		2976CC131C2BF20300562055 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CC121C2BF20300562055 /* AppDelegate.m */; };
 		2976CC161C2BF20300562055 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CC151C2BF20300562055 /* ViewController.m */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2961F0231CC485490062FC1A /* shouye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shouye.png; sourceTree = "<group>"; };
 		2976CC0B1C2BF20300562055 /* UITableView-省市.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableView-省市.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2976CC0F1C2BF20300562055 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2976CC111C2BF20300562055 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2961F0221CC485490062FC1A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				2961F0231CC485490062FC1A /* shouye.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		2976CC021C2BF20300562055 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +110,7 @@
 				2976CC0C1C2BF20300562055 /* Products */,
 				2976CC471C2BF49800562055 /* area.plist */,
 				2976CC4B1C2CD80B00562055 /* sortednames.plist */,
+				2961F0221CC485490062FC1A /* Image */,
 			);
 			sourceTree = "<group>";
 		};
@@ -283,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2961F0241CC485490062FC1A /* shouye.png in Resources */,
 				2976CC1E1C2BF20300562055 /* LaunchScreen.storyboard in Resources */,
 				2976CC481C2BF49800562055 /* area.plist in Resources */,
 				2976CC4C1C2CD80B00562055 /* sortednames.plist in Resources */,
